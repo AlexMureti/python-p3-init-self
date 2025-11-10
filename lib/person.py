@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
 
 class Person:
-    pass
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        print("Hello world!")
+
+    def walk(self):
+        print("The person is walking")
